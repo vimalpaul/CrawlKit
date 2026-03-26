@@ -15,6 +15,8 @@
 
 **CrawlKit** is a powerful web crawler and asset enumerator for security professionals, created by **Vimal T**. Point it at any domain, feed it HAR files, and get comprehensive **Excel + HTML reports** with full URL enumeration.
 
+![CrawlKit HTML Report Preview](assets/report_preview.webp)
+
 </div>
 
 ---
