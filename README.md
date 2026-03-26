@@ -54,7 +54,7 @@ python crawlkit.py -u https://www.example.com
 ### Crawl + HAR File (recommended)
 
 ```bash
-python crawlkit.py -u https://www.wickes.co.uk -har www.wickes.co.uk.har -m 2000 -o wickes_enumeration
+python crawlkit.py -u https://www.example.com -har www.example.com.har -m 2000 -o example_report
 ```
 
 ### HAR-Only Mode

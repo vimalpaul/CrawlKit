@@ -5,7 +5,7 @@ Author: Vimal T
 A Kali Linux tool for comprehensive domain enumeration.
 
 Usage:
-    python crawlkit.py -u https://www.wickes.co.uk -har www.wickes.co.uk.har -m 2000 -o wickes_report
+    python crawlkit.py -u https://www.example.com -har www.example.com.har -m 2000 -o example_report
     python crawlkit.py -u https://www.example.com -m 500
     python crawlkit.py -u https://target.com -har capture.har --skip-crawl
 """
@@ -618,10 +618,10 @@ def main():
     parser = argparse.ArgumentParser(
         prog='crawlkit',
         description='CrawlKit - Universal Web Crawler & Asset Enumerator',
-        epilog='Example: python crawlkit.py -u https://www.wickes.co.uk -har www.wickes.co.uk.har -m 2000 -o wickes_report',
+        epilog='Example: python crawlkit.py -u https://www.example.com -har www.example.com.har -m 2000 -o example_report',
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
-    parser.add_argument('-u', '--url', required=True, help='Target URL to crawl (e.g., https://www.wickes.co.uk)')
+    parser.add_argument('-u', '--url', required=True, help='Target URL to crawl (e.g., https://www.example.com)')
     parser.add_argument('-har', '--har', default=None, help='Path to HAR file for additional URL extraction')
     parser.add_argument('-m', '--max-pages', type=int, default=2000, help='Maximum pages to crawl (default: 2000)')
     parser.add_argument('-o', '--output', default=None, help='Output filename prefix (default: based on domain)')
