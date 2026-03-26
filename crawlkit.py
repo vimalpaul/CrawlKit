@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 CrawlKit v1.0.0 - Universal Web Crawler & Asset Enumerator
+Author: Vimal T
 A Kali Linux tool for comprehensive domain enumeration.
 
 Usage:
@@ -59,6 +60,7 @@ BANNER = """
 \033[0m
 \033[1;37m  CrawlKit\033[0m \033[0;36mv{version}\033[0m
 \033[1;37m  Universal Web Crawler & Asset Enumerator\033[0m
+\033[0;37m  Author: Vimal T\033[0m
 \033[0;37m  ------------------------------------------------\033[0m
 """
 

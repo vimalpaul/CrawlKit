@@ -13,7 +13,7 @@
 [![Platform](https://img.shields.io/badge/Platform-Kali%20Linux-557C94?logo=kalilinux&logoColor=white)](https://kali.org)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-**CrawlKit** is a powerful web crawler and asset enumerator for security professionals. Point it at any domain, feed it HAR files, and get comprehensive **Excel + HTML reports** with full URL enumeration.
+**CrawlKit** is a powerful web crawler and asset enumerator for security professionals, created by **Vimal T**. Point it at any domain, feed it HAR files, and get comprehensive **Excel + HTML reports** with full URL enumeration.
 
 </div>
 
@@ -143,6 +143,6 @@ MIT License — do whatever you want with it.
 
 <div align="center">
 
-**Built for Kali Linux** | **Made with Python**
+**Built for Kali Linux** | **Made with Python** | **Author: Vimal T**
 
 </div>
