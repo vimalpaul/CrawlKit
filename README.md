@@ -85,26 +85,24 @@ python crawlkit.py -u https://example.com -m 500 -d 0.1
 
 ---
 
-## Output
+## 📊 Enterprise-Grade Reporting
 
-### Excel Report (`.xlsx`) — 5 Sheets
+CrawlKit doesn't just dump URLs into your terminal—it generates **beautiful, actionable reports** designed for security professionals, penetration testers, and bug bounty hunters to immediately start analyzing attack surfaces.
 
-| Sheet | Contents |
-|-------|----------|
-| All URLs | Every URL with domain, path, query params, status, content type, source |
-| Domain Summary | URL count per subdomain |
-| Source Breakdown | Crawler vs HAR per domain |
-| Status Codes | HTTP status distribution |
-| Content Types | Content type distribution |
+### 📈 Premium HTML Dashboard (`.html`)
+A fully self-contained, offline-ready HTML report featuring a pristine white-theme design. 
+- **Executive Summary:** High-level metrics (Total URLs, Unique Domains, Crawler vs. HAR).
+- **Domain Distribution:** Gradient bar charts visualizing asset sprawl across subdomains.
+- **Status & Content Analytics:** Color-coded distribution panels for status codes (2xx, 3xx, 404, 500) and content types.
+- **Interactive Data Table:** A searchable, sortable, high-density URL table to instantly filter for `api`, `admin`, or `token` endpoints.
 
-### HTML Report (`.html`)
-
-- Hero header with domain + key metrics
-- Dashboard cards (Total URLs, Domains, Crawler/HAR counts)
-- Domain breakdown bar chart
-- Status code distribution
-- Searchable, sortable URL table
-- Self-contained single HTML file
+### 📗 Multi-Sheet Excel Report (`.xlsx`)
+A comprehensive, data-rich spreadsheet designed for deep-dive filtering and integration with other tools.
+- **All URLs:** The complete master list of every discovered asset with paths and query parameters.
+- **Domain Summary:** Quickly identify misconfigured or forgotten subdomains.
+- **Source Breakdown:** Compare assets found via the Python crawler vs. your browser's HAR traffic.
+- **Status Codes:** Dedicated pivot-style sheet for rapid triage of broken links (404s) or server errors (500s).
+- **Content Types:** Instantly isolate exposed JSON APIs, JavaScript chunks, or config files.
 
 ---
 
